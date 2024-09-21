@@ -1,0 +1,20 @@
+.App {
+  padding: 20px;
+  min-height: 100vh;
+  transition: all 0.3s ease;
+}
+
+.App.light {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.App.dark {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+button, select {
+  margin: 10px;
+  padding: 5px 10px;
+}
